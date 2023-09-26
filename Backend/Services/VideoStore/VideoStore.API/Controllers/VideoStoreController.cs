@@ -31,6 +31,3 @@ namespace VideoStore.API.Controllers {
     }
 }
 
-// git branch -M main
-// git remote add origin https://github.com/Pybool/Yebo-insurance-application.git
-// git push -u origin main
