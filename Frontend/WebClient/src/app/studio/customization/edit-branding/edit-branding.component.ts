@@ -58,7 +58,7 @@ export class EditBrandingComponent implements OnInit, OnDestroy {
       .select(selectUserData)
       .pipe(
         take(1),
-        tap((userData) => {
+        tap((userData:any) => {
           if (userData != null) {
             this.syncUiWithUserData(userData);
           }
